@@ -4,8 +4,7 @@
   "description": "Demo hydra",
   "main": "index.js",
   "scripts": {
-    "start": "",
-    "start-services": "concurrently \"node index.js\" \"node ./services/hello/hello.js\"",
+    "start": "concurrently \"node index.js\" \"node ./services/hello/hello.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
